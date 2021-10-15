@@ -1,0 +1,286 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  /* HEADER */
+  * {
+    box-sizing: border-box;
+  }
+  /* HEADER */
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #E2CECB;
+    opacity: 0.8;
+    position :fixed;
+    top: 0;
+    color: #7A4F25;
+    z-index: 10;
+  }
+  .header p{
+    color: #7a4f25;
+  
+}
+  
+  .header-left {
+    float: left;
+    font-family: gelato;
+    font-size: 25px;
+    /* line-height: 100px; */
+  }
+  
+  .header-right {
+    float: right;
+    font-family: muli;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #7A4F25;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: #ce9ca9bb;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .menu-icon{
+    color: #7A4F25;
+    float: right;
+    font-size: 25px;
+    /* padding: 21px 0; */
+    display: none;
+    margin: 25px;
+  }
+
+  .btn-header {
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+  /* BODY */
+  body{
+    margin: 0;
+    background-color: #e6e6e8;
+  }
+  .clear {
+    clear: left;
+  }
+
+  /* MAIN1 */
+  .main1{
+    padding: 130px 0 100px 0;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    text-align: left;
+    color:#F5F6F8;
+  
+  }
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  @font-face {
+    font-family: muli;
+    src: url('Muli.ttf');
+  }
+  @font-face {
+    font-family: gelato;
+    src: url('GelatoScript.ttf');
+  }
+  .main1 h1 {
+    opacity: 0.8;
+    font-size: 43px;
+    letter-spacing: 2px;
+    font-family: gelato;
+    color:#7A4F25;
+    font-size:70px;
+    margin-bottom: 10px;
+    animation: bounce;
+    animation-duration: 3s;
+  }
+  .titik{
+    color:#B34047;
+  }
+  
+  .main1 p {
+    opacity: 0.8;
+    margin-bottom: 3px;
+    color:#6C3828;
+    font-family: muli;
+  }
+
+/* BUTTON */
+  .btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+  }
+  .btn-wrapper a{
+    color:#F5F6F8;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px;
+  }
+  .pesan{
+    background-color: #B34047;
+    font-family: muli;
+  }
+ /* MAIN2 */
+ 
+
+ 
+ 
+   /* MAIN3 */
+   @font-face {
+    font-family: muli;
+    src: url('Muli.ttf');
+  }
+  @font-face {
+    font-family: gelato;
+    src: url('GelatoScript.ttf');
+  }
+
+  .judul3{
+    background-color:#E2CECB;
+    height: 280px;
+    margin-top: 25px 0 25px 25px;
+    float:center;
+    
+  }
+  .judul3 h2{
+    font-family: gelato;
+    color:#7A4F25;
+    font-size:35px;
+    text-align: center;
+    padding: 45px 0;
+    animation: bounce;
+    animation-duration: 2s;
+  }
+  .row::after{
+    content:"";
+    display: table;
+    clear: both;
+    margin-top: 25px;
+  }
+
+  .row{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .kolom h3{
+    text-align: center;
+    font-family: muli;
+    text-underline-position: below;
+  }
+
+  .produk{
+    float: left;
+    width:25%;
+    height: 400px;
+  }
+
+  .kuea{
+    color:#6C3828;
+  }
+  .kueb{
+    color:#6C3828;
+  }
+  .kuec{
+    color:#6C3828;
+  }
+  .kued{
+    color:#6C3828;
+  }
+  .kuee{
+    color:#6C3828;
+  }
+
+  .produk p{
+    text-align: center;
+    font-family: muli;
+    text-underline-position: below;
+  }
+  .produk img{
+    width: 210px;
+    height: 280px;
+    display:block; 
+    margin:auto;
+  }
+  /* BUTTON */
+  
+  
+  .kedua{
+    background-color: #B34047;
+    font-family: muli;
+    text-align: center;
+  }
+ 
+  .btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+  }
+  .btn-wrapper a{
+    color:#F5F6F8;
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .btn2{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px;
+    
+  }
+  .pesan{
+    background-color: #B34047;
+    font-family: muli;
+  }
+  a{
+    text-decoration: none;
+  }
+  .btn-wrap {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .btn-wrap a{
+    color:#F5F6F8;
+  }
+  .lainnya{
+    background-color: #B34047;
+    font-family: muli;
+    margin: 25px 0;
+    text-align: center;
+  }
+  /* FOOTER */
+ 
+ 
+ 
